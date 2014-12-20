@@ -28,4 +28,9 @@ typedef enum {
  */
 @property (nonatomic, assign) VPAnimatorType animatorType;
 
+/**
+ *  动画时间
+ */
+@property (nonatomic, assign) CGFloat animatorTime;
+
 @end

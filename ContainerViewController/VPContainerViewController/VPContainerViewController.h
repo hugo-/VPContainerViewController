@@ -51,6 +51,10 @@
  */
 @property (nonatomic, assign) VPAnimatorType animatorType;
 /**
+ *  动画时间
+ */
+@property (nonatomic, assign) CGFloat animatorTime;
+/**
  *  显示的最大按钮数(多余的滑动显示)
  */
 @property (nonatomic, assign) NSInteger showButtonsMaxCount;

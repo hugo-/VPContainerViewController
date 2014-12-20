@@ -243,6 +243,7 @@ static CGFloat const kButtonSlotHeight = 44;
         
         VPAnimator *animator = [[VPAnimator alloc] init];
         animator.animatorType = self.animatorType;
+        animator.animatorTime = self.animatorTime;
         [animator animateTransition:transitionContext];
     } else {
         [self.privateContainerView addSubview:toView];

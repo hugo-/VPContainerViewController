@@ -39,7 +39,8 @@
     rootViewController.topHeight = 40.0;
     rootViewController.selectedColor = [UIColor redColor];
     rootViewController.animated = YES;
-    rootViewController.animatorType = VPAnimatorTypeTop;
+    rootViewController.animatorType = VPAnimatorTypeRight;
+    rootViewController.animatorTime = 0.5;
     rootViewController.title = @"转场动画";
     
     return rootViewController;

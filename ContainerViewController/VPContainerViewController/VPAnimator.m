@@ -19,7 +19,7 @@
  */
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
 {
-    return 0.5;
+    return self.animatorTime ? self.animatorTime : 0.5;
 }
 
 /**

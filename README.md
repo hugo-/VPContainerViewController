@@ -7,12 +7,12 @@ use
 -------------------------
  *  显示的自控制器数组<br>
  
-    @property (nonatomic, copy) NSArray *viewControllers;
+  @property (nonatomic, copy) NSArray *viewControllers;
  *  选中的子控制器<br>
  
-    @property (nonatomic, assign) UIViewController *selectedViewController;
+  @property (nonatomic, assign) UIViewController *selectedViewController;
  *  顶部选择视图的高度<br>
-    @property (nonatomic, assign) CGFloat topHeight;
+  @property (nonatomic, assign) CGFloat topHeight;
  *  按钮默认文字颜色<br>
     @property (nonatomic, strong) UIColor *normalColor;
  *  按钮选中文字颜色<br>

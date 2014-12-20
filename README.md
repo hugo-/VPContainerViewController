@@ -6,8 +6,10 @@ VPContainerViewController manages a stack of view controllers and a topView
 use
 -------------------------
  *  显示的自控制器数组<br>
+ 
     @property (nonatomic, copy) NSArray *viewControllers;
  *  选中的子控制器<br>
+ 
     @property (nonatomic, assign) UIViewController *selectedViewController;
  *  顶部选择视图的高度<br>
     @property (nonatomic, assign) CGFloat topHeight;

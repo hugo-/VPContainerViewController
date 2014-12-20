@@ -8,7 +8,7 @@ use
  *  显示的自控制器数组<br>
 ```objective-c
   @property (nonatomic, copy) NSArray *viewControllers;
-
+```
  *  选中的子控制器<br>
 ```objective-c
   @property (nonatomic, assign) UIViewController *selectedViewController;

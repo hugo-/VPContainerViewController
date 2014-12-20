@@ -42,7 +42,6 @@
     rootViewController.animatorType = VPAnimatorTypeRight;
     rootViewController.animatorTime = 0.5;
     rootViewController.title = @"转场动画";
-    
     return rootViewController;
 }
 
